@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/scripts/prologue.rpy", line 2, in execute_default
+    default subtitle_text = ""
+Exception: store.subtitle_text is being given a default a second time.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\renpy-8.3.4-sdk\renpy\exports\statementexports.py", line 372, in execute_default_statement
+    i.execute_default(start)
+  File "game/scripts/prologue.rpy", line 2, in execute_default
+    default subtitle_text = ""
+Exception: store.subtitle_text is being given a default a second time.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.4.24120703
+Secrets of the Pub Life 1.0
+Tue Feb 18 21:05:16 2025
