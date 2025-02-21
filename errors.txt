@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/prologue.rpy", line 10: invalid syntax
+    global subtitle_text = "How did it come to this? I had a job. A home. People who cared."
+                          ^
+
+File "game/scripts/prologue.rpy", line 14: invalid syntax
+    global subtitle_text = "Or at least, I thought they did."
+                          ^
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Tue Feb 18 20:56:36 2025
