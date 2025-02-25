@@ -1,3 +1,5 @@
 label ch_1:
     scene black
-    "Chapter 1: The Pub!"
+    show text "Chapter 1: The Pub!" with fade
+    pause 2
+    return 
