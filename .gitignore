@@ -20,6 +20,9 @@ parts/
 sdist/
 cache/
 saves/
+errors.txt
+logs.txt
+traceback.txt
 var/
 wheels/
 share/python-wheels/
