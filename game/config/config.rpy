@@ -1,0 +1,1 @@
+default DOOR_BTN_XALIGN = 0.538
