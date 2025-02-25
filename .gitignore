@@ -28,6 +28,13 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Private folders/files
+cache/
+saves/
+errors.txt
+logs.txt
+traceback.txt
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
