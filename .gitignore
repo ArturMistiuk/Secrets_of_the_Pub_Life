@@ -27,8 +27,8 @@ share/python-wheels/
 MANIFEST
 
 # Private folders/files
-cache/
-saves/
+cache/*
+saves/*
 !cache/.gitkeep
 !saves/.gitkeep
 errors.txt
