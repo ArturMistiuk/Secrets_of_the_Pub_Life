@@ -18,6 +18,7 @@ lib/
 lib64/
 parts/
 sdist/
+saves/
 var/
 wheels/
 share/python-wheels/
@@ -42,8 +43,7 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
-.cache/
-.saves/
+.cache
 nosetests.xml
 coverage.xml
 *.cover
