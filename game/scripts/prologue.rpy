@@ -31,10 +31,5 @@ label start:
     # Pub enter scene
     scene bg pub_enter with fade
     call screen pub_enter_screen
-   
+    
     return
-
-
-label mock:
-    scene black
-    "Hello!"
