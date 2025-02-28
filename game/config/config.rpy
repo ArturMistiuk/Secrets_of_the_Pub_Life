@@ -1,0 +1,2 @@
+define DOOR_BTN_XALIGN = 0.532
+define DOOR_BTN_YALIGN = 1.0

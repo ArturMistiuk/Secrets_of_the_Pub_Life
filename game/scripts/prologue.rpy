@@ -1,5 +1,4 @@
 # prologue
-
 label start:
 
     show screen prologue_screen
@@ -25,5 +24,10 @@ label start:
     # $ subtitle_text = "Do they even see me? Do they even care? I don’t think so. I am a mess."
     # $ renpy.restart_interaction()
     # $ renpy.pause(6.0, hard=True)
-    
-    return
+
+    hide screen prologue_screen
+    stop audio
+
+    # Pub enter scene
+    scene bg pub_enter with fade
+    call screen pub_enter_screen
