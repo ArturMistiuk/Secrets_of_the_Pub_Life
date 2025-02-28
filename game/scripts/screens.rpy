@@ -8,6 +8,7 @@ screen prologue_screen():
 screen pub_enter_screen():
     imagebutton:
         xalign(DOOR_BTN_XALIGN)
+        yalign(DOOR_BTN_YALIGN)
         idle "images/prologue/door_btn_idle.jpg"
         hover "images/prologue/door_btn_hover.jpg"
         hover_sound "audio/door_opens_sound.mp3"
