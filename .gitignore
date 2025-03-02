@@ -27,12 +27,10 @@ share/python-wheels/
 MANIFEST
 
 # Private folders/files
-cache/*
-saves/*
-!cache/.gitkeep
-!saves/.gitkeep
+cache/
+saves/
 errors.txt
-logs.txt
+log.txt
 traceback.txt
 
 # PyInstaller
