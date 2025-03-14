@@ -1,1 +1,0 @@
-This branch responsible for prologue part and everything that will be in the game before the Chapter 1
