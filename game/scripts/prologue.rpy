@@ -21,54 +21,53 @@ label start:
     "............................................................................................................"
 
     scene bg car_2
-    street_boss "Since you got in the car, you must have hit rock bottom."
-    street_boss "Tired of eating scraps, huh?\nYou want to live like a man, not like a stray rat?"
+    street_boss "Раз ты сел в машину, значит, хочешь изменить свою жизнь."
+    street_boss "Жить, как человек, а не выживать, как дворовая крыса?"
 
     scene bg car_3
-    player "Sometimes rats are more honest than people."
+    player "Иногда крысы честнее людей."
 
     scene bg car_4
-    street_boss "Maybe.\nBut a rat without a pack is just prey."
-    street_boss "I can give you a chance. A roof over your head, food, work. Choose."
+    street_boss "…Согласен. Но крыса без стаи долго не протянет."
+    street_boss "Я могу дать тебе шанс. Крышу над головой, работу."
 
     scene bg car_5
-    player "What kind of work?"
-    street_boss "Dirty. Hard. No days off."
-    street_boss "I need someone who doesn’t ask questions and doesn’t ask for favors."
+    player "Что за работа?"
+    street_boss "Я держу паб.\nМне нужен человек, который не боится грязной и тяжёлой работы. Который всегда на месте."
 
     scene bg car_6
-    player "I'm starving. Haven't slept for days."
-    player "This is still better than the streets.\nWhere will I live?"
+    player "Я голоден. Не спал несколько дней. Это всё равно лучше, чем улица."
+    player "Где я буду жить?"
 
     scene bg car_4
-    street_boss "In the basement under the pub. Consider it your new home."
+    street_boss "В подвале под пабом. Лучше, чем картонка в переулке, не так ли?"
 
     scene bg car_7
-    player "…Better than a dumpster."
+    player "…Да."
 
     scene bg car_8
-    "He checks his watch, shaking his head."
+    "Мужчина бросает взгляд на часы."
 
     scene bg car_4
-    street_boss "Time’s running out."
-    street_boss "Do you have any family? Anyone who cares about you?"
+    street_boss "Мы скоро выезжаем."
+    street_boss "У тебя есть кто-то? Семья? Любимый человек?"
 
     scene bg car_6
-    player "No. I’m on my own."
+    player "Нет. Я сам по себе."
 
     scene bg car_5
-    street_boss "Good. That means no one will miss you."
-    street_boss "From now on, you’re my guy. And if you don’t mess up, maybe you’ll get a shot at something bigger."
+    street_boss "Может, это ещё можно исправить."
+    street_boss "Но мне нужна твоя полная отдача. Я предлагаю тебе вторую жизнь, но ты должен оправдать моё доверие."
 
     scene bg car_3
-    player "I don’t want to go back to the streets."
+    player "Я не хочу возвращаться на улицу."
 
     scene bg car_4
-    street_boss "Then don’t make me regret this decision."
+    street_boss "Тогда всё зависит только от тебя."
 
     scene bg car_9
-    "He glances at his watch again, then suddenly knocks on the glass."
-    street_boss "Let’s go. We don’t have time to waste."
+    "Он снова смотрит на часы, затем резко передает водителю."
+    street_boss "У нас мало времени! Поехали. Нам нужно закончить это сегодня."
 
     # Pub enter scene
     scene bg pub_enter with fade
