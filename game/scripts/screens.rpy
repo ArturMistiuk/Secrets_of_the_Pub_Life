@@ -12,4 +12,5 @@ screen pub_enter_screen():
         idle "images/prologue/door_btn_idle.jpg"
         hover "images/prologue/door_btn_hover.jpg"
         hover_sound "audio/door_opens_sound.mp3"
-        action Jump("ch_1")
+        action [Stop("music"), Jump("ch_1")]
+        
