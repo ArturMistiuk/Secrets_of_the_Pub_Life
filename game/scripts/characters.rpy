@@ -8,6 +8,8 @@ define viktor = Character("Виктор", color="#7804bbff", what_slow_cps=35, c
 define scarlet = Character("Скарлет", color="#2e356dff", what_slow_cps=35, callback=neutral_talking_callback("scarlet"))
 
 
+image car_inside_video_bg = Movie(play="video/car_windows_bg.webm", loop=True)
+
 image viktor neutral = "characters/viktor/viktor_neutral.png"
 image viktor talking = "characters/viktor/viktor_talking.png"
 

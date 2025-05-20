@@ -1,4 +1,5 @@
 # prologue
+
 label start:
 
     # show screen prologue_screen
@@ -19,34 +20,36 @@ label start:
 
     # Block of dialogue in the car
     play music in_car loop volume 0.3
-    scene bg car_1 with fade
+    show car_inside_video_bg
+    show bg_car 1
+   
     pause 1.5
 
-    scene bg car_2
+    show bg_car 2
     silver_boss "Если ты сел в эту машину — значит, готов начать заново.{p}Жить, как человек, а не выживать, как дворовая крыса?"
 
-    scene bg car_3
+    show bg_car 3
     player "Я видел, как поступают люди. {p}{w=0.3}Иногда и крысы выглядят благороднее."
 
-    scene bg car_4
+    show bg_car 4
     silver_boss "…Есть в этом правда. Но одиночка долго не выживает."
     silver_boss "Я могу дать тебе шанс. Крышу над головой, работу."
 
-    scene bg car_5
+    show bg_car 5
     player "Что за работа?"
     silver_boss "Я держу паб. {w=0.3}Нужен человек, что не бежит от грязной работы. {w=0.3}Тот, кто умеет держать слово."
 
-    scene bg car_6
+    show bg_car 6
     player "Я устал. Голоден. Не спал несколько ночей."
     player "Где я буду жить?"
 
-    scene bg car_4
+    show bg_car 4
     silver_boss "В подвале под пабом. Там не уютно, но теплее чем на улице."
 
-    scene bg car_7
+    show bg_car 7
     player "…Да."
 
-    scene bg car_4
+    show bg_car 4
     silver_boss "Хорошо. Тогда начнём с простого"
     silver_boss "Как тебя зовут?"
     # Create a function with validation for name input
@@ -59,29 +62,29 @@ label start:
 
     silver_boss "Хм… [player_name]. {w=0.3}Имя говорит больше, чем думаешь. {w=0.2}Запомню.{p}{w=0.3}Меня зовут Виктор"
 
-    scene bg car_8
+    show bg_car 8
     pause 1.5
 
-    scene bg car_4
+    show bg_car 4
     viktor "Мы скоро приедем."
     viktor "У тебя есть кто-то? {w=0.3}Семья? {w=0.3}Любимый человек?"
 
-    scene bg car_6
+    show bg_car 6
     player "Нет. Я сам по себе."
 
-    scene bg car_5
+    show bg_car 5
     viktor "Может, это ещё можно исправить. Но мне нужна твоя полная отдача."
     viktor "Я предлагаю тебе вторую жизнь, но ты должен оправдать моё доверие."
 
-    scene bg car_3
+    show bg_car 3
     player "Я не хочу возвращаться на улицу."
 
-    scene bg car_4
+    show bg_car 4
     viktor "Тогда всё зависит только от тебя."
 
-    scene bg car_8
+    show bg_car 8
     pause 1
-    scene bg car_9
+    show bg_car 9
     pause 1
     viktor "У нас мало времени. Ускорься! Нам нужно закончить все сегодня."
     stop music
